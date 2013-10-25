@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11D57FE181A4B1500E4049D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11D57FD181A4B1500E4049D /* Foundation.framework */; };
+		E11D5800181A4B1500E4049D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11D57FF181A4B1500E4049D /* CoreGraphics.framework */; };
+		E11D5802181A4B1500E4049D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11D5801181A4B1500E4049D /* UIKit.framework */; };
+		E11D5808181A4B1500E4049D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E11D5806181A4B1500E4049D /* InfoPlist.strings */; };
+		E11D580A181A4B1500E4049D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D5809181A4B1500E4049D /* main.m */; };
+		E11D580E181A4B1500E4049D /* WXCAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D580D181A4B1500E4049D /* WXCAAppDelegate.m */; };
+		E11D5814181A4B1500E4049D /* WXCAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D5813181A4B1500E4049D /* WXCAViewController.m */; };
+		E11D5816181A4B1500E4049D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11D5815181A4B1500E4049D /* Images.xcassets */; };
+		E11D581D181A4B1500E4049D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11D581C181A4B1500E4049D /* XCTest.framework */; };
+		E11D581E181A4B1500E4049D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11D57FD181A4B1500E4049D /* Foundation.framework */; };
+		E11D581F181A4B1500E4049D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11D5801181A4B1500E4049D /* UIKit.framework */; };
+		E11D5827181A4B1500E4049D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E11D5825181A4B1500E4049D /* InfoPlist.strings */; };
+		E11D5829181A4B1500E4049D /* weixinCardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11D5828181A4B1500E4049D /* weixinCardAnimationTests.m */; };
+		E11D5833181A516F00E4049D /* vip.png in Resources */ = {isa = PBXBuildFile; fileRef = E11D5832181A516F00E4049D /* vip.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E11D5820181A4B1500E4049D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11D57F2181A4B1500E4049D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11D57F9181A4B1500E4049D;
+			remoteInfo = weixinCardAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E11D57FA181A4B1500E4049D /* weixinCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixinCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11D57FD181A4B1500E4049D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E11D57FF181A4B1500E4049D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E11D5801181A4B1500E4049D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E11D5805181A4B1500E4049D /* weixinCardAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weixinCardAnimation-Info.plist"; sourceTree = "<group>"; };
+		E11D5807181A4B1500E4049D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E11D5809181A4B1500E4049D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E11D580B181A4B1500E4049D /* weixinCardAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weixinCardAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		E11D580C181A4B1500E4049D /* WXCAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCAAppDelegate.h; sourceTree = "<group>"; };
+		E11D580D181A4B1500E4049D /* WXCAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXCAAppDelegate.m; sourceTree = "<group>"; };
+		E11D5812181A4B1500E4049D /* WXCAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCAViewController.h; sourceTree = "<group>"; };
+		E11D5813181A4B1500E4049D /* WXCAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXCAViewController.m; sourceTree = "<group>"; };
+		E11D5815181A4B1500E4049D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E11D581B181A4B1500E4049D /* weixinCardAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weixinCardAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11D581C181A4B1500E4049D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E11D5824181A4B1500E4049D /* weixinCardAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weixinCardAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		E11D5826181A4B1500E4049D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E11D5828181A4B1500E4049D /* weixinCardAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weixinCardAnimationTests.m; sourceTree = "<group>"; };
+		E11D5832181A516F00E4049D /* vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11D57F7181A4B1500E4049D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11D5800181A4B1500E4049D /* CoreGraphics.framework in Frameworks */,
+				E11D5802181A4B1500E4049D /* UIKit.framework in Frameworks */,
+				E11D57FE181A4B1500E4049D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11D5818181A4B1500E4049D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11D581D181A4B1500E4049D /* XCTest.framework in Frameworks */,
+				E11D581F181A4B1500E4049D /* UIKit.framework in Frameworks */,
+				E11D581E181A4B1500E4049D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11D57F1181A4B1500E4049D = {
+			isa = PBXGroup;
+			children = (
+				E11D5803181A4B1500E4049D /* weixinCardAnimation */,
+				E11D5822181A4B1500E4049D /* weixinCardAnimationTests */,
+				E11D57FC181A4B1500E4049D /* Frameworks */,
+				E11D57FB181A4B1500E4049D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11D57FB181A4B1500E4049D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11D57FA181A4B1500E4049D /* weixinCardAnimation.app */,
+				E11D581B181A4B1500E4049D /* weixinCardAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11D57FC181A4B1500E4049D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E11D57FD181A4B1500E4049D /* Foundation.framework */,
+				E11D57FF181A4B1500E4049D /* CoreGraphics.framework */,
+				E11D5801181A4B1500E4049D /* UIKit.framework */,
+				E11D581C181A4B1500E4049D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E11D5803181A4B1500E4049D /* weixinCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E11D580C181A4B1500E4049D /* WXCAAppDelegate.h */,
+				E11D580D181A4B1500E4049D /* WXCAAppDelegate.m */,
+				E11D5812181A4B1500E4049D /* WXCAViewController.h */,
+				E11D5832181A516F00E4049D /* vip.png */,
+				E11D5813181A4B1500E4049D /* WXCAViewController.m */,
+				E11D5815181A4B1500E4049D /* Images.xcassets */,
+				E11D5804181A4B1500E4049D /* Supporting Files */,
+			);
+			path = weixinCardAnimation;
+			sourceTree = "<group>";
+		};
+		E11D5804181A4B1500E4049D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11D5805181A4B1500E4049D /* weixinCardAnimation-Info.plist */,
+				E11D580B181A4B1500E4049D /* weixinCardAnimation-Prefix.pch */,
+				E11D5806181A4B1500E4049D /* InfoPlist.strings */,
+				E11D5809181A4B1500E4049D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E11D5822181A4B1500E4049D /* weixinCardAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E11D5828181A4B1500E4049D /* weixinCardAnimationTests.m */,
+				E11D5823181A4B1500E4049D /* Supporting Files */,
+			);
+			path = weixinCardAnimationTests;
+			sourceTree = "<group>";
+		};
+		E11D5823181A4B1500E4049D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11D5824181A4B1500E4049D /* weixinCardAnimationTests-Info.plist */,
+				E11D5825181A4B1500E4049D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11D57F9181A4B1500E4049D /* weixinCardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11D582C181A4B1500E4049D /* Build configuration list for PBXNativeTarget "weixinCardAnimation" */;
+			buildPhases = (
+				E11D57F6181A4B1500E4049D /* Sources */,
+				E11D57F7181A4B1500E4049D /* Frameworks */,
+				E11D57F8181A4B1500E4049D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weixinCardAnimation;
+			productName = weixinCardAnimation;
+			productReference = E11D57FA181A4B1500E4049D /* weixinCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E11D581A181A4B1500E4049D /* weixinCardAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11D582F181A4B1500E4049D /* Build configuration list for PBXNativeTarget "weixinCardAnimationTests" */;
+			buildPhases = (
+				E11D5817181A4B1500E4049D /* Sources */,
+				E11D5818181A4B1500E4049D /* Frameworks */,
+				E11D5819181A4B1500E4049D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11D5821181A4B1500E4049D /* PBXTargetDependency */,
+			);
+			name = weixinCardAnimationTests;
+			productName = weixinCardAnimationTests;
+			productReference = E11D581B181A4B1500E4049D /* weixinCardAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11D57F2181A4B1500E4049D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WXCA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Coneboy_K;
+				TargetAttributes = {
+					E11D581A181A4B1500E4049D = {
+						TestTargetID = E11D57F9181A4B1500E4049D;
+					};
+				};
+			};
+			buildConfigurationList = E11D57F5181A4B1500E4049D /* Build configuration list for PBXProject "weixinCardAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E11D57F1181A4B1500E4049D;
+			productRefGroup = E11D57FB181A4B1500E4049D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11D57F9181A4B1500E4049D /* weixinCardAnimation */,
+				E11D581A181A4B1500E4049D /* weixinCardAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11D57F8181A4B1500E4049D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11D5833181A516F00E4049D /* vip.png in Resources */,
+				E11D5816181A4B1500E4049D /* Images.xcassets in Resources */,
+				E11D5808181A4B1500E4049D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11D5819181A4B1500E4049D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11D5827181A4B1500E4049D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11D57F6181A4B1500E4049D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11D580A181A4B1500E4049D /* main.m in Sources */,
+				E11D580E181A4B1500E4049D /* WXCAAppDelegate.m in Sources */,
+				E11D5814181A4B1500E4049D /* WXCAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11D5817181A4B1500E4049D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11D5829181A4B1500E4049D /* weixinCardAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E11D5821181A4B1500E4049D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11D57F9181A4B1500E4049D /* weixinCardAnimation */;
+			targetProxy = E11D5820181A4B1500E4049D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E11D5806181A4B1500E4049D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11D5807181A4B1500E4049D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E11D5825181A4B1500E4049D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11D5826181A4B1500E4049D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E11D582A181A4B1500E4049D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E11D582B181A4B1500E4049D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E11D582D181A4B1500E4049D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weixinCardAnimation/weixinCardAnimation-Prefix.pch";
+				INFOPLIST_FILE = "weixinCardAnimation/weixinCardAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E11D582E181A4B1500E4049D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weixinCardAnimation/weixinCardAnimation-Prefix.pch";
+				INFOPLIST_FILE = "weixinCardAnimation/weixinCardAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E11D5830181A4B1500E4049D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/weixinCardAnimation.app/weixinCardAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weixinCardAnimation/weixinCardAnimation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "weixinCardAnimationTests/weixinCardAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E11D5831181A4B1500E4049D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/weixinCardAnimation.app/weixinCardAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weixinCardAnimation/weixinCardAnimation-Prefix.pch";
+				INFOPLIST_FILE = "weixinCardAnimationTests/weixinCardAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11D57F5181A4B1500E4049D /* Build configuration list for PBXProject "weixinCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11D582A181A4B1500E4049D /* Debug */,
+				E11D582B181A4B1500E4049D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11D582C181A4B1500E4049D /* Build configuration list for PBXNativeTarget "weixinCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11D582D181A4B1500E4049D /* Debug */,
+				E11D582E181A4B1500E4049D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E11D582F181A4B1500E4049D /* Build configuration list for PBXNativeTarget "weixinCardAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11D5830181A4B1500E4049D /* Debug */,
+				E11D5831181A4B1500E4049D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E11D57F2181A4B1500E4049D /* Project object */;
+}

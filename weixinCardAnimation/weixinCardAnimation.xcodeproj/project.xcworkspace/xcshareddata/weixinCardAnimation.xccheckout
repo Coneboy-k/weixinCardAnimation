@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8144FEDD-80D3-4A84-9C0F-A194864AEF58</string>
+	<key>IDESourceControlProjectName</key>
+	<string>weixinCardAnimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8B31A0ED-1890-49BA-B124-14341B4FCB66</key>
+		<string>https://github.com/Coneboy-k/weixinCardAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>weixinCardAnimation/weixinCardAnimation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8B31A0ED-1890-49BA-B124-14341B4FCB66</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Coneboy-k/weixinCardAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8B31A0ED-1890-49BA-B124-14341B4FCB66</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8B31A0ED-1890-49BA-B124-14341B4FCB66</string>
+			<key>IDESourceControlWCCName</key>
+			<string>weixinCardAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
